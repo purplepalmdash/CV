@@ -4,7 +4,7 @@ Feipeng Yang
 ----
 
 > Specialities:C,Python,Linux,Unix,Embedded System,Virtualization\     
-> Master in Communication and Information System, 7 Years' Working Experience
+> Master in Communication and Information System
 
 ----
 
@@ -12,8 +12,8 @@ General Information
 -------------------
 
 Info
-:   Male | Single | Born in 1982/12 | HUKOU: Xiangtan,Hunan |
-    Location: Nanjing,Jiangsu
+:   Male | Single | Born in 1982/12 | HUKOU: HUNAN XIANGTAN |
+    Location JIANGSU NANJING   
 Tel
 :   +86-13914728634
 
@@ -23,84 +23,48 @@ E-mail
 GitHub Page
 :   http://feipyang.github.io/
 
-Self Assessment
----------------
-
-For years I've been working as a developer in several area, which includes Mobile Equipments, Network Equipments, CDMA Core-Network, LTE Network Controller. I have deep understanding in embedded system development/migration/porting. I use Linux/Unix as my daily working/family computer, which got me rich experience in both desktop environment and server, or mobile equipments. My mind is open and I am willing to share my knowledge and skills to others. I have a strong ability in studing and researching in many area, and always ready for taking new challenges. 
-
-
 Work Experience
 ---------------
 Since 2010/10
-:   Platform Engineer in Alcatel-Lucent(Nanjing)
+:   Platform Engineer for Alcatel-Lucent(Nanjing)
 
 09/08-10/09
-:   Platform Engineer in NOKIA (Beijing)
+:   Platform Engineer for NOKIA (Beijing)
 
 07/08-09/08
-:   Design Engineer in EB(Beijing)
+:   Design Engineer for EB(Beijing)
 
 05/12-07/04
-:   Software Engineer in IOACAS(Institute of Acoustics, Chinese Academy of Sciences) High Performance Network Lab 
+:   Software Engineer for IOACAS(Institute of Acoustics, Chinese Academy of Sciences) High Performance Network Lab 
 
 Part-time Projects
 ------------------
 A
 :   *Arduino Development*
 
-    Software: ArchLinux, Ubuntu, Windows.
+    Software: ArchLinux, Ubuntu, Windows
 
     Hardware: Arduino Uno/Mega2560/Nano, Electronic Modules.
 
-    Introduction: 
-
     1. Mp3 Player based on vs1003(MP3 module) and SD Card module, it will automatically scan the whole SD card and generate the playlist, supports randomize playing/ sequence playing/ volumn control/ web player, etc.
 
-    2. Web server based on Ethernet Shield W5100/28j60, remote control the sensors and update the cloud-side data online.
+    2. Web server based on Ethernet Shield W5100/28j60, remote control the sensors and update the functions online.
 
 B
-:   *Weather/Humidity/PM2.5/PM10 APP*
+:   *PM2.5 APP*
 
-    Software: ArchLinux, Debian Wheezy(ARM).
+    Software: ArchLinux, Debian Wheezy(ARM)
 
-    Hardware: Pogoplug v1(ARMv6), Google App Engine, Heroku.
+    Hardware: Pogoplug v1(ARMv6)
 
     Development tools: Python, Lungo(Javascript framework), Flot( Painting framework), git. 
 
-    Introduction:
-
-    1. Every hour this app will fetch the data back, and generate the real-time plot webpage. 
-    2. 24-hour average statistic plot will also be generated 
-    3. Demo runs in arm-7 based NAS: [http://feipengy.no-ip.biz:7778](http://feipengy.no-ip.biz:7778)
-    4. You can also visit cloud-based demo in [http://nanjingpm25.appspot.com](http://nanjingpm25.appspot.com)  or on heroku:  [http://python-weather-app.herokuapp.com/](http://python-weather-app.herokuapp.com/).  
+    This APP will fetching the data back from the data source, and generate the real-time data and 24-hour statistic figure. Currently this app support Nanjing/Beijing. Demo address: [http://feipengy.no-ip.biz:7778](http://feipengy.no-ip.biz:7778)
 
 C
 :   *Embedded System*
 
-    Introduction: 
-
-    1. Porting Linux(Bootloader,Kernel,FileSystem, etc), and implement a functionality-specified equipment, such as NAS/Web Server/File Server, etc. 
-    2. Care about the Start-up Spped, Stability, Power-Consumer, or User-friendly. 
-    3. Platform includes X86, ARM(RaspberryPI, BeagleBone Black), MIPS(Some router which runs OPENWRT), etc. 
-
-D
-:   *Virtualization*
-
-    Introduction:
-
-    1. Swiftly deploy various OS on Virtual Hardware, mainly for prototype verification.
-    2. I've tried Qemu/VirtualBox/VMware,etc. 
-
-E
-:   *Chat Terminal Emulator*
-
-    Introduction:
-
-    1. Based on Node.JS, let user can directly "talk to" computer in browser and execute SHELL commands..
-    2. Still under developing, basic function has been implemented. 
-    3. In future releases it will introduce history/query/ask online/multi-user cooperation,etc.
-    ![/home/dash/code/GeneralDocs/CV/images/talk.jpg](/home/dash/code/GeneralDocs/CV/images/talk.jpg)
-    ![/home/dash/code/GeneralDocs/CV/images/talk2.jpg](/home/dash/code/GeneralDocs/CV/images/talk2.jpg)
+    RaspberryPI, BeagleBone, PogoPlug, OpenWRT, Arduino, etc. 
 
 Project Experience
 ------------------
@@ -184,16 +148,16 @@ Others
 
     Tranlation of "Learning Android" to chinese in 2011. 
 
-Interests & Skills
+Interests & Hobbies
 -------------------
-Interests:
-:   Jazz Piano, Arranger, Reading, Writing, etc.
-Skills:
-:   Joggling(More than 50-KiloMeters Per Week), Riding(More than 10K KiloMeters), Outdoors, Electronic Making, Audio Equipment Making, etc. 
+Jazz Piano, Jogging, Reading, Riding, Outdoors, Electronic making, Audio equipment making, Music, etc. 
 
 Certifications
 --------------
 CET-4
+
 :   Got in 2000, as freshman
+
 CET-6
+
 :   Got in 2000, as freshman

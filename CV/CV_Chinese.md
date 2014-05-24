@@ -100,6 +100,19 @@ D
     1. 虚拟硬件上快速部署各类平台及系统。如X86, Arm, MIPS等, 主要用于快速原型验证。
     2. Qemu, VirtualBox, Vmware。
 
+E
+:   *聊天式终端*
+
+    简介:
+
+    1. 基于Node.JS实现，使得用户可以直接在浏览器中与计算机对话并运行SHELL命令。
+    2. 正在开发中，基本功能已经实现。
+    3. 后期开发将引入命令历史记录/查询/社区提问/多用户协助调试等功能。
+    ![/home/dash/code/GeneralDocs/CV/images/talk.jpg](/home/dash/code/GeneralDocs/CV/images/talk.jpg)
+    ![/home/dash/code/GeneralDocs/CV/images/talk2.jpg](/home/dash/code/GeneralDocs/CV/images/talk2.jpg)
+
+
+
 工作项目
 -------- 
 
