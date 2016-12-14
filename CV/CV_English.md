@@ -99,8 +99,6 @@ E
     1. Based on Node.JS, let user can directly "talk to" computer in browser and execute SHELL commands..
     2. Still under developing, basic function has been implemented. 
     3. In future releases it will introduce history/query/ask online/multi-user cooperation,etc.
-    ![/home/dash/code/GeneralDocs/CV/images/talk.jpg](/home/dash/code/GeneralDocs/CV/images/talk.jpg)
-    ![/home/dash/code/GeneralDocs/CV/images/talk2.jpg](/home/dash/code/GeneralDocs/CV/images/talk2.jpg)
 
 Project Experience
 ------------------
@@ -115,9 +113,9 @@ Since 2010/10
 
     Project Details:
 
-    1. Porting and implementation of DNS Protocol Stack. It will use Posix for implementing DNS Query and Response for fetching the Communication Channel Informations.
-    2. APT(Asia Pacific Telecom)'s Disaste Quick Reaction System, this script will swiftly fetching all of the User/Cell Information and generate the table for next disaste-preventing step.
-    3. OAM Module on LTE ENODEB Board. Mainly caring on NM(Network Manager) module.
+    1. Porting and implementation of DNS Protocol Stack. It will use Posix for implementing DNS Query and Response for fetching the Communication Channel Informations. The DNS Client runs on Solaris, implemented in C/C++. I reponsible for coding the encode/decode module. For support local development, I built the DNS Server which based on Linux/Bind9. At the integration period I developed a tool named DummyCRF, which runs on windows, for providing the dummy EDNS0 Server, its UI based on QT, use Berkeley DB, and integrated libpcap for caturing the packets. DummyCRF listens on local 53 port and runs as a DNS0 Server. its core component EDNS0 Server could easily be ported onto Linux/Unix/Windows. 
+    2. APT(Asia Pacific Telecom)'s Disaste Quick Reaction System, this script will swiftly fetching all of the User/Cell Information and generate the table for next disaste-preventing step. This product runs on CDMA OAM platform, runs every 30 mins. It fetches database from several APs and combine them locally. Its core modules calls lots of awk/sed/perl for processing dataset. 
+    3. LTE EnodeB Control Board Platform. We maintained the Tranport module on LTE ENODEB Control Board. Some module on NM(Network Manager) was developered, and some integration and debugging works were done. Also we touch the Linux Kernel Maintainence and debugging. ROHC testing module was developed for implementing the ROHC module automatically testing and generating the testing result. 
 
 09/09-10/09
 :   *Nokia S30*
@@ -130,9 +128,9 @@ Since 2010/10
 
     Project Details:
 
-    1.  NOKIA1616, NOKIA1800, NOKIA1280, NOKIA C1-00's development and researching.
-    2.  Maintain the phone's audio module, including audio and FM redio----developing and debugging.
-    3.  Porting LUA to NOKIA1661 phone. We've finished a demo "lua" sudoku game on this phone.
+    1.  NOKIA1616, NOKIA1800, NOKIA1280, NOKIA C1-00's development and researching. Discuss on Platform choose, BOM discussion, estimate the RAM/ROM size, some functionality discussion, etc. 
+    2.  Maintain the phone's audio module, including audio and FM redio----developing and debugging. Some click noise dismission, Audio Server priority, FMRadio function machine maintainence. 
+    3.  Porting LUA to NOKIA1661 phone. We've finished a demo "lua" sudoku game on this phone. Finally Lua could be run on 384KB size ARM7 platform, and could draw without delay, and it could response to 3x4 keypad. 
     4.  Implement Nokia X1's  SD card FileSystem, and supporting this Filesystem's usage and development both on SDK and on target.
 
 07/08-09/08
@@ -146,7 +144,7 @@ Since 2010/10
 
     Responsibilities:
 
-    1. Application development based on Trolltech Qtopia.
+    1. Application development based on Trolltech Qtopia. Write adaption layer for Qtopia API and 3rd-party SDK.  
     2. Kernel reduction based on Montavista Linux, and system integration.
     3. Synergy Management, and Makefiles for whole building system.
 

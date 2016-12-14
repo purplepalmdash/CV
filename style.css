@@ -9,7 +9,8 @@
 
 /* Whole document */
 body {
-    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
+/*    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif; */
+    font-family: "WenQuanYi Micro Hei", Helvetica, Arial, sans-serif;
     width: 800px;
     margin: auto;
     background: #FFFFFF;

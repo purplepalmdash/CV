@@ -10,8 +10,8 @@ html:
 	pandoc --standalone -c style.css --from markdown --to html -o ./Output/CV_English.html ./CV/CV_English.md
 	pandoc --standalone -c style.css --from markdown --to html -o ./Output/CV_Chinese.html ./CV/CV_Chinese.md
 	cp ./style.css ./Output/style.css
-	wkhtmltopdf ./Output/CV_Chinese.html ./Output/CV_Chinese.pdf
-	wkhtmltopdf ./Output/CV_English.html ./Output/CV_English.pdf
+	wkhtmltopdf -s A4  -B 10 -T 10 ./Output/CV_Chinese.html ./Output/CV_Chinese.pdf
+	wkhtmltopdf -s A4  -B 10 -T 10 ./Output/CV_English.html ./Output/CV_English.pdf
 
 doc:
 	pandoc --standalone -c ./CV/style.css --from markdown --to docx -o ./Output/CV_English.docx ./CV/CV_English.md

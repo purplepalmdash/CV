@@ -81,7 +81,7 @@ B
     1. 实时从各种天气类/空气质量类网站取回数据,生成实时数据和24 小时统计图形。
     2. 支持南京和北京两地查询,可扩展到更多城市。 
     3. Demo 地址: [http://feipengy.no-ip.biz:7778](http://feipengy.no-ip.biz:7778)
-    4. 云端版本(Google App Engine,需翻墙): [http://nanjingpm25.appspot.com/](http://nanjingpm25.appspot.com/)
+    4. 云端版本(Google App Engine,需翻墙): [http://nanjingpm25.appspot.com/](http://nanjingpm25.appspot.com/) or [http://python-weather-app.herokuapp.com/](http://python-weather-app.herokuapp.com/)     
 
 C
 :   *构建系统*
@@ -108,8 +108,6 @@ E
     1. 基于Node.JS实现，使得用户可以直接在浏览器中与计算机对话并运行SHELL命令。
     2. 正在开发中，基本功能已经实现。
     3. 后期开发将引入命令历史记录/查询/社区提问/多用户协助调试等功能。
-    ![/home/dash/code/GeneralDocs/CV/images/talk.jpg](/home/dash/code/GeneralDocs/CV/images/talk.jpg)
-    ![/home/dash/code/GeneralDocs/CV/images/talk2.jpg](/home/dash/code/GeneralDocs/CV/images/talk2.jpg)
 
 
 
@@ -127,9 +125,9 @@ E
  
     职责:
 
-    1. DNS 协议栈移植和实现,高并发重负载环境下POSIX多线程实现 DNS 查询的实现。
-    2. APT(台湾亚太电信）防灾预警系统的实现,实时生成用户数据库以供下一步决策。 
-    3. LTE ENODEB板OAM/NM模块开发。
+    1. DNS 协议栈移植和实现,高并发重负载环境下POSIX多线程实现 DNS 查询的实现。DNS客户端基于Solaris/C/C++实现, 本人主要负责DNS编码/解码模块。为支持本地开发搭建基于Linux/bind9 DNS Server, 后期完成DummyCRF软件图形界面基于QT开发, 数据库采用Berkeley DB, 整合pcap实现自动抓包功能，监听本地53端口以实现EDNS0 Server. DummyCRF运行于Windows，其核心EDNS0 Server模块可跨平台运行于Linux/Unix/Windows。  
+    2. APT(台湾亚太电信）防灾预警系统的实现,实时生成用户数据库以供下一步决策。该产品运行于CDMA OAM平台，每30分钟运行一次，从各AP取得相关数据后本地进行整合。核心模块大量使用了awk/sed/perl等SHELL工具以实现数据的整合。
+    3. LTE ENODEB板Platform。主要负责维护Control板上的Transport模块及周边。开发NM(Network Manager)模块功能、系统整合和调试、有部分Linux内核模块维护和纠错经验。同时开发了ROHC测试模块，以实现ENODEB板上ROHC模块的自动化测试并自动生成测试结果。
 
 09/09-10/09
 :   *Nokia S30*
@@ -142,10 +140,10 @@ E
 
     职责:
 
-    1. 研发NOKIA1616,NOKIA1800,NOKIA1280, NOKIA C1-00等S30手机。
-    2. 维护S30手机音频软件模块, 包括Audio及FMRadio等。
-    3. 移植LUA至NOKIA1661平台,并使用Lua完成"数独"游戏DEMO。 
-    4. NOKIA X1 SD卡 FAT32/16文件系统, SDK/Target部署。
+    1. 研发NOKIA1616,NOKIA1800,NOKIA1280, NOKIA C1-00等S30手机。参与平台研究讨论、平台解决方案确定、内存/存储空间估测、手机模块功能定义及选型等。
+    2. 维护S30手机音频软件模块, 包括Audio及FMRadio等。Audio模块的维护和Debug等工作，消除杂音、维护声音服务器级别、FMRadio状态机维护等。
+    3. 移植LUA至NOKIA1661平台,并使用Lua完成"数独"游戏DEMO。实现了平台API的Lua包装引出及API抽象，最终成功运行于内存仅384K的ARM7平台，并可流畅实现绘图(点线面等)并无延迟响应3x4键盘输入动作。 
+    4. NOKIA X1 SD卡 FAT32/16文件系统, SDK/Target部署。基于FatFs抽象出供Nokia X1使用的文件系统，首次在S30上引入了SD卡功能支持。同时为实现本地调试和UI SDK整合，部署了SD卡模拟器(Windows版本和Linux版本)。
 
 07/08-09/08
 :   Maxwell项目
@@ -158,7 +156,7 @@ E
 
     职责:
 
-    1. 基于 Trolltech 的 Qtopia-phone-edition 的手机上层软件开发。 
+    1. 基于 Trolltech 的 Qtopia-phone-edition 的手机上层软件开发。适配Qtopia接口与第三方API接口的对接，并部署了整个开发环境。
     2. 基于 Montavista Linux 的内核裁减和系统集成。 
     3. 基于 Synergy 的版本控制，编译系统相关脚本。
 
